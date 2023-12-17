@@ -16,13 +16,6 @@
           "children": null
         },
         {
-          "link": "i-i-s-kurs2-еди-изм-l",
-          "menuName": null,
-          "caption": "Единицы измерения",
-          "title": "",
-          "children": null
-        },
-        {
           "link": "i-i-s-kurs2-выгр-файла-l",
           "menuName": null,
           "caption": "Выгрузка файла",
@@ -49,20 +42,6 @@
           "caption": "Конвертация",
           "title": "",
           "children": null
-        },
-        {
-          "link": "i-i-s-kurs2-расширение-l",
-          "menuName": null,
-          "caption": "Расширение",
-          "title": "",
-          "children": null
-        },
-        {
-          "link": "i-i-s-kurs2-вид-док-l",
-          "menuName": null,
-          "caption": "Вид документа",
-          "title": "",
-          "children": null
         }
       ]
     },
@@ -75,21 +54,21 @@
         {
           "link": "i-i-s-kurs2-расширение-l",
           "menuName": null,
-          "caption": "РасширениеL",
+          "caption": "Расширения",
           "title": "Расширение",
           "children": null
         },
         {
           "link": "i-i-s-kurs2-еди-изм-l",
           "menuName": null,
-          "caption": "ЕдиИзмL",
+          "caption": "Единицы измерения",
           "title": "Еди изм",
           "children": null
         },
         {
           "link": "i-i-s-kurs2-вид-док-l",
           "menuName": null,
-          "caption": "ВидДокL",
+          "caption": "Вид документа",
           "title": "Вид док",
           "children": null
         }

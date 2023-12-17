@@ -111,10 +111,6 @@ $.extend(true, translations, {
             caption: 'Загрузка файла',
             title: ''
           },
-          'i-i-s-kurs2-еди-изм-l': {
-            caption: 'Единицы измерения',
-            title: ''
-          },
           'i-i-s-kurs2-выгр-файла-l': {
             caption: 'Выгрузка файла',
             title: ''
@@ -129,6 +125,10 @@ $.extend(true, translations, {
           },
           'i-i-s-kurs2-конверт-l': {
             caption: 'Конвертация',
+            title: ''
+          },
+          'i-i-s-kurs2-еди-изм-l': {
+            caption: 'Единицы измерения',
             title: ''
           },
           'i-i-s-kurs2-расширение-l': {
