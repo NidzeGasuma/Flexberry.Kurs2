@@ -22,49 +22,49 @@ export default Controller.extend({
             link: 'i-i-s-kurs2-загр-файла-l',
             caption: i18n.t('forms.application.sitemap.конвертация-файла.i-i-s-kurs2-загр-файла-l.caption'),
             title: i18n.t('forms.application.sitemap.конвертация-файла.i-i-s-kurs2-загр-файла-l.title'),
-            icon: 'folder open',
+            icon: 'chart line',
             children: null
           }, {
             link: 'i-i-s-kurs2-еди-изм-l',
             caption: i18n.t('forms.application.sitemap.конвертация-файла.i-i-s-kurs2-еди-изм-l.caption'),
             title: i18n.t('forms.application.sitemap.конвертация-файла.i-i-s-kurs2-еди-изм-l.title'),
-            icon: 'tasks',
+            icon: 'calendar',
             children: null
           }, {
             link: 'i-i-s-kurs2-выгр-файла-l',
             caption: i18n.t('forms.application.sitemap.конвертация-файла.i-i-s-kurs2-выгр-файла-l.caption'),
             title: i18n.t('forms.application.sitemap.конвертация-файла.i-i-s-kurs2-выгр-файла-l.title'),
-            icon: 'chart line',
+            icon: 'briefcase',
             children: null
           }, {
             link: 'i-i-s-kurs2-экс-файлы-l',
             caption: i18n.t('forms.application.sitemap.конвертация-файла.i-i-s-kurs2-экс-файлы-l.caption'),
             title: i18n.t('forms.application.sitemap.конвертация-файла.i-i-s-kurs2-экс-файлы-l.title'),
-            icon: 'book',
+            icon: 'file',
             children: null
           }, {
             link: 'i-i-s-kurs2-конвер-файлы-l',
             caption: i18n.t('forms.application.sitemap.конвертация-файла.i-i-s-kurs2-конвер-файлы-l.caption'),
             title: i18n.t('forms.application.sitemap.конвертация-файла.i-i-s-kurs2-конвер-файлы-l.title'),
-            icon: 'folder open',
+            icon: 'phone',
             children: null
           }, {
             link: 'i-i-s-kurs2-конверт-l',
             caption: i18n.t('forms.application.sitemap.конвертация-файла.i-i-s-kurs2-конверт-l.caption'),
             title: i18n.t('forms.application.sitemap.конвертация-файла.i-i-s-kurs2-конверт-l.title'),
-            icon: 'file',
+            icon: 'folder open',
             children: null
           }, {
             link: 'i-i-s-kurs2-расширение-l',
             caption: i18n.t('forms.application.sitemap.конвертация-файла.i-i-s-kurs2-расширение-l.caption'),
             title: i18n.t('forms.application.sitemap.конвертация-файла.i-i-s-kurs2-расширение-l.title'),
-            icon: 'list',
+            icon: 'file',
             children: null
           }, {
             link: 'i-i-s-kurs2-вид-док-l',
             caption: i18n.t('forms.application.sitemap.конвертация-файла.i-i-s-kurs2-вид-док-l.caption'),
             title: i18n.t('forms.application.sitemap.конвертация-файла.i-i-s-kurs2-вид-док-l.title'),
-            icon: 'briefcase',
+            icon: 'building',
             children: null
           }]
         }, {
@@ -76,19 +76,18 @@ export default Controller.extend({
             link: 'i-i-s-kurs2-расширение-l',
             caption: i18n.t('forms.application.sitemap.справочники.i-i-s-kurs2-расширение-l.caption'),
             title: i18n.t('forms.application.sitemap.справочники.i-i-s-kurs2-расширение-l.title'),
-            icon: 'archive',
+            icon: 'calendar',
             children: null
           }, {
             link: 'i-i-s-kurs2-еди-изм-l',
             caption: i18n.t('forms.application.sitemap.справочники.i-i-s-kurs2-еди-изм-l.caption'),
             title: i18n.t('forms.application.sitemap.справочники.i-i-s-kurs2-еди-изм-l.title'),
-            icon: 'paperclip',
             children: null
           }, {
             link: 'i-i-s-kurs2-вид-док-l',
             caption: i18n.t('forms.application.sitemap.справочники.i-i-s-kurs2-вид-док-l.caption'),
             title: i18n.t('forms.application.sitemap.справочники.i-i-s-kurs2-вид-док-l.title'),
-            icon: 'building',
+            icon: 'tags',
             children: null
           }]
         }
