@@ -27,7 +27,7 @@ namespace IIS.Kurs2
 
     // *** End programmer edit section *** (ЭксФайлы CustomAttributes)
     [AutoAltered()]
-    [Caption("Экс файлы")]
+    [Caption("Эксель файлы")]
     [AccessType(ICSSoft.STORMNET.AccessType.none)]
     [View("ЭксФайлыE", new string[] {
             "Дата as \'Дата\'",

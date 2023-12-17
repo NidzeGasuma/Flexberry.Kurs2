@@ -27,7 +27,7 @@ namespace IIS.Kurs2
 
     // *** End programmer edit section *** (ЕдиИзм CustomAttributes)
     [AutoAltered()]
-    [Caption("Еди изм")]
+    [Caption("Единицы измерения")]
     [AccessType(ICSSoft.STORMNET.AccessType.none)]
     [View("ЕдиИзмE", new string[] {
             "Наименование as \'Наименование\'"})]

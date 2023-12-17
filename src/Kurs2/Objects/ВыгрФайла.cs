@@ -27,7 +27,7 @@ namespace IIS.Kurs2
 
     // *** End programmer edit section *** (ВыгрФайла CustomAttributes)
     [AutoAltered()]
-    [Caption("Выгр файла")]
+    [Caption("Выгрузка файла")]
     [AccessType(ICSSoft.STORMNET.AccessType.none)]
     [View("ВыгрФайлаE", new string[] {
             "ИмяФайла as \'Имя файла\'",

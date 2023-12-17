@@ -27,7 +27,7 @@ namespace IIS.Kurs2
 
     // *** End programmer edit section *** (ВидДок CustomAttributes)
     [AutoAltered()]
-    [Caption("Вид док")]
+    [Caption("Вид документа")]
     [AccessType(ICSSoft.STORMNET.AccessType.none)]
     [View("ВидДокE", new string[] {
             "Наименование as \'Наименование\'"})]

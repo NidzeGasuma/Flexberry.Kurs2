@@ -27,7 +27,7 @@ namespace IIS.Kurs2
 
     // *** End programmer edit section *** (ЗагрФайла CustomAttributes)
     [AutoAltered()]
-    [Caption("Загр файла")]
+    [Caption("Загрузка файла")]
     [AccessType(ICSSoft.STORMNET.AccessType.none)]
     [View("ЗагрФайлаE", new string[] {
             "ЭксФайлы.Дата as \'Дата\'",

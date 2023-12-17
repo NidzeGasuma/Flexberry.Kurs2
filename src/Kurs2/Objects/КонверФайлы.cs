@@ -27,7 +27,7 @@ namespace IIS.Kurs2
 
     // *** End programmer edit section *** (КонверФайлы CustomAttributes)
     [AutoAltered()]
-    [Caption("Конвер файлы")]
+    [Caption("Конвертированные файлы")]
     [AccessType(ICSSoft.STORMNET.AccessType.none)]
     [View("КонверФайлыE", new string[] {
             "ВыгрФайла as \'Имя файла\'",

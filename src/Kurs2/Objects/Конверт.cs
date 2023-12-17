@@ -27,6 +27,7 @@ namespace IIS.Kurs2
 
     // *** End programmer edit section *** (Конверт CustomAttributes)
     [AutoAltered()]
+    [Caption("Конвертация")]
     [AccessType(ICSSoft.STORMNET.AccessType.none)]
     [View("КонвертE", new string[] {
             "ЗагрФайла.ЭксФайлы.Имя as \'Имя\'",
