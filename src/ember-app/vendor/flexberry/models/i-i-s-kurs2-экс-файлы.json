@@ -128,7 +128,7 @@
           ],
           "index": 5,
           "type": "standard",
-          "caption": "Еди изм",
+          "caption": "Единицы измерения",
           "name": "едиИзм",
           "relatedTo": "i-i-s-kurs2-еди-изм",
           "inverse": null
