@@ -2,7 +2,7 @@
   "newForm": "i-i-s-kurs2-загр-файла-e",
   "editForm": "i-i-s-kurs2-загр-файла-e",
   "external": false,
-  "caption": "Загр файла",
+  "caption": "Загрузка файла",
   "name": "IISKurs2ЗагрФайлаL",
   "className": "ЗагрФайлаL",
   "attrs": [],

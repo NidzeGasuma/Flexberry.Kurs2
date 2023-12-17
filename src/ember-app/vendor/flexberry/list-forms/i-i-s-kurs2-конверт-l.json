@@ -2,7 +2,7 @@
   "newForm": "i-i-s-kurs2-конверт-e",
   "editForm": "i-i-s-kurs2-конверт-e",
   "external": false,
-  "caption": "Конверт",
+  "caption": "Конвертация",
   "name": "IISKurs2КонвертL",
   "className": "КонвертL",
   "attrs": [],

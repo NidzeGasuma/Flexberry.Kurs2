@@ -41,7 +41,7 @@ $.extend(true, translations, {
     'i-i-s-kurs2-экс-файлы': IISKurs2ЭксФайлыModel
   },
 
-  'application-name': 'Kurs2',
+  'application-name': 'Конвертирование файла',
 
   forms: {
     loading: {
@@ -80,7 +80,7 @@ $.extend(true, translations, {
       },
 
       footer: {
-        'application-name': 'Kurs2',
+        'application-name': 'Конвертирование файла',
         'application-version': {
           caption: 'Addon version {{version}}',
           title: 'It is version of ember-flexberry addon, which uses in this dummy application ' +
@@ -91,8 +91,8 @@ $.extend(true, translations, {
 
       sitemap: {
         'application-name': {
-          caption: 'Kurs2',
-          title: 'Kurs2'
+          caption: 'Конвертирование файла',
+          title: 'Конвертирование файла'
         },
         'application-version': {
           caption: 'Addon version {{version}}',

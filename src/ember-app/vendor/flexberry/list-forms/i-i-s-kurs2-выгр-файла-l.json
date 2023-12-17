@@ -2,7 +2,7 @@
   "newForm": "i-i-s-kurs2-выгр-файла-e",
   "editForm": "i-i-s-kurs2-выгр-файла-e",
   "external": false,
-  "caption": "Выгр файла",
+  "caption": "Выгрузка файла",
   "name": "IISKurs2ВыгрФайлаL",
   "className": "ВыгрФайлаL",
   "attrs": [],

@@ -10,7 +10,7 @@
     }
   ],
   "external": false,
-  "caption": "Загр файла",
+  "caption": "Загрузка файла",
   "name": "IISKurs2ЗагрФайлаE",
   "className": "ЗагрФайлаE",
   "attrs": [],

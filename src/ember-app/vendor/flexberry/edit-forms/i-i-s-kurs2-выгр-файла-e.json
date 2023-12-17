@@ -10,7 +10,7 @@
     }
   ],
   "external": false,
-  "caption": "Выгр файла",
+  "caption": "Выгрузка файла",
   "name": "IISKurs2ВыгрФайлаE",
   "className": "ВыгрФайлаE",
   "attrs": [],
