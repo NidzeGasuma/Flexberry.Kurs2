@@ -35,7 +35,7 @@
           "name": "репозиторий",
           "caption": "Репозиторий",
           "hidden": false,
-          "index": 0
+          "index": 1
         }
       ],
       "belongsTo": [
@@ -53,9 +53,9 @@
               "index": 2
             }
           ],
-          "index": 1,
+          "index": 0,
           "type": "standard",
-          "caption": "Выгр файла",
+          "caption": "Имя файла",
           "name": "выгрФайла",
           "relatedTo": "i-i-s-kurs2-выгр-файла",
           "inverse": null
@@ -71,7 +71,7 @@
           "name": "репозиторий",
           "caption": "Репозиторий",
           "hidden": false,
-          "index": 0
+          "index": 1
         }
       ],
       "belongsTo": [
@@ -86,7 +86,7 @@
               "name": "имяФайла",
               "caption": "Имя файла",
               "hidden": false,
-              "index": 1
+              "index": 0
             }
           ],
           "index": -1,

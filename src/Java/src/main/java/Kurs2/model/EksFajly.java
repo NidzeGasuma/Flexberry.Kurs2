@@ -26,14 +26,14 @@ public class EksFajly {
     @Column(name = "Дата")
     private Date дата;
 
+    @Column(name = "Размер")
+    private Integer размер;
+
     @Column(name = "Имя")
     private String имя;
 
     @Column(name = "Репозиторий")
     private String репозиторий;
-
-    @Column(name = "Размер")
-    private Integer размер;
 
     @EdmIgnore
     @Converter(converterClass = UUIDConverter.class, name = "EdiIzm")
@@ -76,6 +76,14 @@ public class EksFajly {
       this.дата = дата;
     }
 
+    public Integer getРазмер() {
+      return размер;
+    }
+
+    public void setРазмер(Integer размер) {
+      this.размер = размер;
+    }
+
     public String getИмя() {
       return имя;
     }
@@ -90,14 +98,6 @@ public class EksFajly {
 
     public void setРепозиторий(String репозиторий) {
       this.репозиторий = репозиторий;
-    }
-
-    public Integer getРазмер() {
-      return размер;
-    }
-
-    public void setРазмер(Integer размер) {
-      this.размер = размер;
     }
 
 

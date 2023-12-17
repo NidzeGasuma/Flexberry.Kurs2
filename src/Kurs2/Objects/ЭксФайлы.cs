@@ -47,18 +47,18 @@ namespace IIS.Kurs2
             "Имя as \'Имя\'",
             "Репозиторий as \'Репозиторий\'",
             "Размер as \'Размер\'",
-            "ЕдиИзм.Наименование as \'Наименование\'",
-            "Расширение.Наименование as \'Наименование\'"})]
+            "ЕдиИзм.Наименование as \'Единицы измерения\'",
+            "Расширение.Наименование as \'Расширение\'"})]
     public class ЭксФайлы : ICSSoft.STORMNET.DataObject
     {
         
         private System.DateTime fДата;
         
+        private int fРазмер;
+        
         private string fИмя;
         
         private string fРепозиторий;
-        
-        private int fРазмер;
         
         private IIS.Kurs2.ЕдиИзм fЕдиИзм;
         

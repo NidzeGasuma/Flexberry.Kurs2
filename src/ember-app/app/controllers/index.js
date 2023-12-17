@@ -22,13 +22,12 @@ export default Controller.extend({
             link: 'i-i-s-kurs2-загр-файла-l',
             caption: i18n.t('forms.application.sitemap.kurs2.i-i-s-kurs2-загр-файла-l.caption'),
             title: i18n.t('forms.application.sitemap.kurs2.i-i-s-kurs2-загр-файла-l.title'),
-            icon: 'tags',
+            icon: 'table',
             children: null
           }, {
             link: 'i-i-s-kurs2-еди-изм-l',
             caption: i18n.t('forms.application.sitemap.kurs2.i-i-s-kurs2-еди-изм-l.caption'),
             title: i18n.t('forms.application.sitemap.kurs2.i-i-s-kurs2-еди-изм-l.title'),
-            icon: 'table',
             children: null
           }, {
             link: 'i-i-s-kurs2-выгр-файла-l',
@@ -40,31 +39,31 @@ export default Controller.extend({
             link: 'i-i-s-kurs2-экс-файлы-l',
             caption: i18n.t('forms.application.sitemap.kurs2.i-i-s-kurs2-экс-файлы-l.caption'),
             title: i18n.t('forms.application.sitemap.kurs2.i-i-s-kurs2-экс-файлы-l.title'),
-            icon: 'phone',
+            icon: 'folder',
             children: null
           }, {
             link: 'i-i-s-kurs2-конвер-файлы-l',
             caption: i18n.t('forms.application.sitemap.kurs2.i-i-s-kurs2-конвер-файлы-l.caption'),
             title: i18n.t('forms.application.sitemap.kurs2.i-i-s-kurs2-конвер-файлы-l.title'),
-            icon: 'paperclip',
+            icon: 'edit',
             children: null
           }, {
             link: 'i-i-s-kurs2-конверт-l',
             caption: i18n.t('forms.application.sitemap.kurs2.i-i-s-kurs2-конверт-l.caption'),
             title: i18n.t('forms.application.sitemap.kurs2.i-i-s-kurs2-конверт-l.title'),
-            icon: 'folder',
+            icon: 'archive',
             children: null
           }, {
             link: 'i-i-s-kurs2-расширение-l',
             caption: i18n.t('forms.application.sitemap.kurs2.i-i-s-kurs2-расширение-l.caption'),
             title: i18n.t('forms.application.sitemap.kurs2.i-i-s-kurs2-расширение-l.title'),
-            icon: 'tags',
+            icon: 'suitcase',
             children: null
           }, {
             link: 'i-i-s-kurs2-вид-док-l',
             caption: i18n.t('forms.application.sitemap.kurs2.i-i-s-kurs2-вид-док-l.caption'),
             title: i18n.t('forms.application.sitemap.kurs2.i-i-s-kurs2-вид-док-l.title'),
-            icon: 'address card',
+            icon: 'phone',
             children: null
           }]
         }

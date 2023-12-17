@@ -27,16 +27,16 @@ export let ValidationRules = {
 
 export let defineProjections = function (modelClass) {
   modelClass.defineProjection('КонверФайлыE', 'i-i-s-kurs2-конвер-файлы', {
-    репозиторий: attr('Репозиторий', { index: 0 }),
-    выгрФайла: belongsTo('i-i-s-kurs2-выгр-файла', 'Выгр файла', {
+    репозиторий: attr('Репозиторий', { index: 1 }),
+    выгрФайла: belongsTo('i-i-s-kurs2-выгр-файла', 'Имя файла', {
       имяФайла: attr('Имя файла', { index: 2, hidden: true })
-    }, { index: 1, displayMemberPath: 'имяФайла' })
+    }, { index: 0, displayMemberPath: 'имяФайла' })
   });
 
   modelClass.defineProjection('КонверФайлыL', 'i-i-s-kurs2-конвер-файлы', {
-    репозиторий: attr('Репозиторий', { index: 0 }),
     выгрФайла: belongsTo('i-i-s-kurs2-выгр-файла', 'Имя файла', {
-      имяФайла: attr('Имя файла', { index: 1 })
-    }, { index: -1, hidden: true })
+      имяФайла: attr('Имя файла', { index: 0 })
+    }, { index: -1, hidden: true }),
+    репозиторий: attr('Репозиторий', { index: 1 })
   });
 };

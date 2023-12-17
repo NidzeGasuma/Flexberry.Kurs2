@@ -55,7 +55,7 @@
           ],
           "index": 1,
           "type": "standard",
-          "caption": "Конверт",
+          "caption": "Имя документа",
           "name": "конверт",
           "relatedTo": "i-i-s-kurs2-конверт",
           "inverse": null
@@ -84,14 +84,14 @@
           "attrs": [
             {
               "name": "имяДок",
-              "caption": "Имя док",
+              "caption": "Имя документа",
               "hidden": false,
               "index": 1
             }
           ],
           "index": -1,
           "type": "default",
-          "caption": "Имя док",
+          "caption": "Имя документа",
           "name": "конверт",
           "relatedTo": "i-i-s-kurs2-конверт",
           "inverse": null

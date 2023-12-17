@@ -30,14 +30,14 @@ namespace IIS.Kurs2
     [Caption("Конвер файлы")]
     [AccessType(ICSSoft.STORMNET.AccessType.none)]
     [View("КонверФайлыE", new string[] {
+            "ВыгрФайла as \'Имя файла\'",
             "Репозиторий as \'Репозиторий\'",
-            "ВыгрФайла as \'Выгр файла\'",
             "ВыгрФайла.ИмяФайла as \'Имя файла\'"}, Hidden=new string[] {
             "ВыгрФайла.ИмяФайла"})]
     [MasterViewDefineAttribute("КонверФайлыE", "ВыгрФайла", ICSSoft.STORMNET.LookupTypeEnum.Standard, "", "ИмяФайла")]
     [View("КонверФайлыL", new string[] {
-            "Репозиторий as \'Репозиторий\'",
-            "ВыгрФайла.ИмяФайла as \'Имя файла\'"})]
+            "ВыгрФайла.ИмяФайла as \'Имя файла\'",
+            "Репозиторий as \'Репозиторий\'"})]
     public class КонверФайлы : ICSSoft.STORMNET.DataObject
     {
         

@@ -35,19 +35,28 @@ export let ValidationRules = {
 
 export let defineProjections = function (modelClass) {
   modelClass.defineProjection('КонвертE', 'i-i-s-kurs2-конверт', {
-    имяДок: attr('Имя док', { index: 0 })
+    имяДок: attr('Имя док', { index: 0 }),
+    загрФайла: belongsTo('i-i-s-kurs2-загр-файла', 'Загр файла', {
+      путьФайла: attr('Путь файла', { index: 2, hidden: true }),
+      эксФайлы: belongsTo('i-i-s-kurs2-экс-файлы', '', {
+        имя: attr('Имя', { index: 5 })
+      }, { index: -1, hidden: true })
+    }, { index: 1, displayMemberPath: 'путьФайла' }),
+    видДок: belongsTo('i-i-s-kurs2-вид-док', 'Вид док', {
+      наименование: attr('Наименование', { index: 4, hidden: true })
+    }, { index: 3, displayMemberPath: 'наименование' })
   });
 
   modelClass.defineProjection('КонвертL', 'i-i-s-kurs2-конверт', {
     имяДок: attr('Имя док', { index: 0 }),
-    загрФайла: belongsTo('i-i-s-kurs2-загр-файла', '', {
+    загрФайла: belongsTo('i-i-s-kurs2-загр-файла', 'Имя', {
       эксФайлы: belongsTo('i-i-s-kurs2-экс-файлы', '', {
-        имя: attr('', { index: 1 })
+        имя: attr('Имя', { index: 1 })
       }, { index: -1, hidden: true }),
       путьФайла: attr('Путь файла', { index: 2 })
     }, { index: -1, hidden: true }),
-    видДок: belongsTo('i-i-s-kurs2-вид-док', 'Наименование', {
-      наименование: attr('Наименование', { index: 3 })
+    видДок: belongsTo('i-i-s-kurs2-вид-док', 'Вид документа', {
+      наименование: attr('Вид документа', { index: 3 })
     }, { index: -1, hidden: true })
   });
 };

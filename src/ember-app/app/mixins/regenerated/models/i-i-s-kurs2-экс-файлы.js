@@ -75,11 +75,11 @@ export let defineProjections = function (modelClass) {
     имя: attr('Имя', { index: 1 }),
     репозиторий: attr('Репозиторий', { index: 2 }),
     размер: attr('Размер', { index: 3 }),
-    едиИзм: belongsTo('i-i-s-kurs2-еди-изм', 'Наименование', {
-      наименование: attr('Наименование', { index: 4 })
+    едиИзм: belongsTo('i-i-s-kurs2-еди-изм', 'Единицы измерения', {
+      наименование: attr('Единицы измерения', { index: 4 })
     }, { index: -1, hidden: true }),
-    расширение: belongsTo('i-i-s-kurs2-расширение', 'Наименование', {
-      наименование: attr('Наименование', { index: 5 })
+    расширение: belongsTo('i-i-s-kurs2-расширение', 'Расширение', {
+      наименование: attr('Расширение', { index: 5 })
     }, { index: -1, hidden: true })
   });
 };

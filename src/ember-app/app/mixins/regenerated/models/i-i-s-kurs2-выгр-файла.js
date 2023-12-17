@@ -28,15 +28,15 @@ export let ValidationRules = {
 export let defineProjections = function (modelClass) {
   modelClass.defineProjection('ВыгрФайлаE', 'i-i-s-kurs2-выгр-файла', {
     имяФайла: attr('Имя файла', { index: 0 }),
-    конверт: belongsTo('i-i-s-kurs2-конверт', 'Конверт', {
+    конверт: belongsTo('i-i-s-kurs2-конверт', 'Имя документа', {
       имяДок: attr('Имя док', { index: 2, hidden: true })
     }, { index: 1, displayMemberPath: 'имяДок' })
   });
 
   modelClass.defineProjection('ВыгрФайлаL', 'i-i-s-kurs2-выгр-файла', {
     имяФайла: attr('Имя файла', { index: 0 }),
-    конверт: belongsTo('i-i-s-kurs2-конверт', 'Имя док', {
-      имяДок: attr('Имя док', { index: 1 })
+    конверт: belongsTo('i-i-s-kurs2-конверт', 'Имя документа', {
+      имяДок: attr('Имя документа', { index: 1 })
     }, { index: -1, hidden: true })
   });
 };
