@@ -1,0 +1,15 @@
+﻿{
+  "newForm": "i-i-s-kurs2-вид-док-e",
+  "editForm": "i-i-s-kurs2-вид-док-e",
+  "external": false,
+  "caption": "Вид док",
+  "name": "IISKurs2ВидДокL",
+  "className": "ВидДокL",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-kurs2-вид-док",
+      "modelProjection": "ВидДокL"
+    }
+  ]
+}

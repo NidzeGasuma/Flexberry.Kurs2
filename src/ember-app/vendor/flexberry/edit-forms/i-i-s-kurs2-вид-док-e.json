@@ -1,0 +1,14 @@
+﻿{
+  "propertyLookup": [],
+  "external": false,
+  "caption": "Вид док",
+  "name": "IISKurs2ВидДокE",
+  "className": "ВидДокE",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-kurs2-вид-док",
+      "modelProjection": "ВидДокE"
+    }
+  ]
+}

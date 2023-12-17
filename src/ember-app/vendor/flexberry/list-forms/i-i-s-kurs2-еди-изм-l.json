@@ -1,0 +1,15 @@
+﻿{
+  "newForm": "i-i-s-kurs2-еди-изм-e",
+  "editForm": "i-i-s-kurs2-еди-изм-e",
+  "external": false,
+  "caption": "Еди изм",
+  "name": "IISKurs2ЕдиИзмL",
+  "className": "ЕдиИзмL",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-kurs2-еди-изм",
+      "modelProjection": "ЕдиИзмL"
+    }
+  ]
+}

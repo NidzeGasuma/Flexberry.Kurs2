@@ -1,0 +1,155 @@
+﻿{
+  "name": "IISKurs2Конверт",
+  "modelName": "i-i-s-kurs2-конверт",
+  "className": "Конверт",
+  "nameSpace": "IIS.Kurs2",
+  "parentModelName": null,
+  "parentClassName": null,
+  "attrs": [
+    {
+      "name": "имяДок",
+      "type": "string",
+      "flexberryType": "string",
+      "notNull": false,
+      "defaultValue": "",
+      "stored": true,
+      "ordered": false
+    }
+  ],
+  "belongsTo": [
+    {
+      "polymorphic": false,
+      "presence": true,
+      "name": "видДок",
+      "relatedTo": "i-i-s-kurs2-вид-док",
+      "inverse": null
+    },
+    {
+      "polymorphic": false,
+      "presence": true,
+      "name": "загрФайла",
+      "relatedTo": "i-i-s-kurs2-загр-файла",
+      "inverse": null
+    }
+  ],
+  "hasMany": [],
+  "projections": [
+    {
+      "name": "КонвертE",
+      "modelName": "i-i-s-kurs2-конверт",
+      "attrs": [
+        {
+          "name": "имяДок",
+          "caption": "Имя док",
+          "hidden": false,
+          "index": 0
+        }
+      ],
+      "belongsTo": [
+        {
+          "lookupValue": "ПутьФайла",
+          "lookupValueField": "путьФайла",
+          "relationName": "ЗагрФайла",
+          "belongsTo": [],
+          "hidden": false,
+          "attrs": [
+            {
+              "name": "путьФайла",
+              "caption": "Путь файла",
+              "hidden": true,
+              "index": 2
+            }
+          ],
+          "index": 1,
+          "type": "standard",
+          "caption": "Загр файла",
+          "name": "загрФайла",
+          "relatedTo": "i-i-s-kurs2-загр-файла",
+          "inverse": null
+        },
+        {
+          "lookupValue": "Наименование",
+          "lookupValueField": "наименование",
+          "relationName": "ВидДок",
+          "belongsTo": [],
+          "hidden": false,
+          "attrs": [
+            {
+              "name": "наименование",
+              "caption": "Наименование",
+              "hidden": true,
+              "index": 4
+            }
+          ],
+          "index": 3,
+          "type": "standard",
+          "caption": "Вид док",
+          "name": "видДок",
+          "relatedTo": "i-i-s-kurs2-вид-док",
+          "inverse": null
+        }
+      ],
+      "hasMany": []
+    },
+    {
+      "name": "КонвертL",
+      "modelName": "i-i-s-kurs2-конверт",
+      "attrs": [
+        {
+          "name": "имяДок",
+          "caption": "Имя док",
+          "hidden": false,
+          "index": 0
+        }
+      ],
+      "belongsTo": [
+        {
+          "lookupValue": null,
+          "lookupValueField": null,
+          "relationName": "ЗагрФайла",
+          "belongsTo": [],
+          "hidden": false,
+          "attrs": [
+            {
+              "name": "путьФайла",
+              "caption": "Путь файла",
+              "hidden": false,
+              "index": 1
+            }
+          ],
+          "index": -1,
+          "type": "default",
+          "caption": "Путь файла",
+          "name": "загрФайла",
+          "relatedTo": "i-i-s-kurs2-загр-файла",
+          "inverse": null
+        },
+        {
+          "lookupValue": null,
+          "lookupValueField": null,
+          "relationName": "ВидДок",
+          "belongsTo": [],
+          "hidden": false,
+          "attrs": [
+            {
+              "name": "наименование",
+              "caption": "Наименование",
+              "hidden": false,
+              "index": 2
+            }
+          ],
+          "index": -1,
+          "type": "default",
+          "caption": "Наименование",
+          "name": "видДок",
+          "relatedTo": "i-i-s-kurs2-вид-док",
+          "inverse": null
+        }
+      ],
+      "hasMany": []
+    }
+  ],
+  "stored": true,
+  "offline": true,
+  "external": false
+}

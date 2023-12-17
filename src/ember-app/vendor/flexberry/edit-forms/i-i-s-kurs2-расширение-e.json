@@ -1,0 +1,14 @@
+﻿{
+  "propertyLookup": [],
+  "external": false,
+  "caption": "Расширение",
+  "name": "IISKurs2РасширениеE",
+  "className": "РасширениеE",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-kurs2-расширение",
+      "modelProjection": "РасширениеE"
+    }
+  ]
+}

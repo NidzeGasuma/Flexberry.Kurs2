@@ -1,0 +1,106 @@
+﻿{
+  "name": "IISKurs2ВыгрФайла",
+  "modelName": "i-i-s-kurs2-выгр-файла",
+  "className": "ВыгрФайла",
+  "nameSpace": "IIS.Kurs2",
+  "parentModelName": null,
+  "parentClassName": null,
+  "attrs": [
+    {
+      "name": "имяФайла",
+      "type": "string",
+      "flexberryType": "string",
+      "notNull": false,
+      "defaultValue": "",
+      "stored": true,
+      "ordered": false
+    }
+  ],
+  "belongsTo": [
+    {
+      "polymorphic": false,
+      "presence": true,
+      "name": "конверт",
+      "relatedTo": "i-i-s-kurs2-конверт",
+      "inverse": null
+    }
+  ],
+  "hasMany": [],
+  "projections": [
+    {
+      "name": "ВыгрФайлаE",
+      "modelName": "i-i-s-kurs2-выгр-файла",
+      "attrs": [
+        {
+          "name": "имяФайла",
+          "caption": "Имя файла",
+          "hidden": false,
+          "index": 0
+        }
+      ],
+      "belongsTo": [
+        {
+          "lookupValue": "ИмяДок",
+          "lookupValueField": "имяДок",
+          "relationName": "Конверт",
+          "belongsTo": [],
+          "hidden": false,
+          "attrs": [
+            {
+              "name": "имяДок",
+              "caption": "Имя док",
+              "hidden": true,
+              "index": 2
+            }
+          ],
+          "index": 1,
+          "type": "standard",
+          "caption": "Конверт",
+          "name": "конверт",
+          "relatedTo": "i-i-s-kurs2-конверт",
+          "inverse": null
+        }
+      ],
+      "hasMany": []
+    },
+    {
+      "name": "ВыгрФайлаL",
+      "modelName": "i-i-s-kurs2-выгр-файла",
+      "attrs": [
+        {
+          "name": "имяФайла",
+          "caption": "Имя файла",
+          "hidden": false,
+          "index": 0
+        }
+      ],
+      "belongsTo": [
+        {
+          "lookupValue": null,
+          "lookupValueField": null,
+          "relationName": "Конверт",
+          "belongsTo": [],
+          "hidden": false,
+          "attrs": [
+            {
+              "name": "имяДок",
+              "caption": "Имя док",
+              "hidden": false,
+              "index": 1
+            }
+          ],
+          "index": -1,
+          "type": "default",
+          "caption": "Имя док",
+          "name": "конверт",
+          "relatedTo": "i-i-s-kurs2-конверт",
+          "inverse": null
+        }
+      ],
+      "hasMany": []
+    }
+  ],
+  "stored": true,
+  "offline": true,
+  "external": false
+}

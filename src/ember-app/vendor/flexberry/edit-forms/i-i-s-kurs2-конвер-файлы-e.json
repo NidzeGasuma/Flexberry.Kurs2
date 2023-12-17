@@ -1,0 +1,23 @@
+﻿{
+  "propertyLookup": [
+    {
+      "master": null,
+      "displayAttributeName": null,
+      "required": false,
+      "relationName": "ВыгрФайла",
+      "projection": "ВыгрФайлаL",
+      "detailModelName": null
+    }
+  ],
+  "external": false,
+  "caption": "Конвер файлы",
+  "name": "IISKurs2КонверФайлыE",
+  "className": "КонверФайлыE",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-kurs2-конвер-файлы",
+      "modelProjection": "КонверФайлыE"
+    }
+  ]
+}

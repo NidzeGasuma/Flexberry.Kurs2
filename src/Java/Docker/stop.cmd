@@ -1,0 +1,1 @@
+docker-compose -p kurs2-java down

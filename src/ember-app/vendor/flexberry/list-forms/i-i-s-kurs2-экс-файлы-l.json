@@ -1,0 +1,15 @@
+﻿{
+  "newForm": "i-i-s-kurs2-экс-файлы-e",
+  "editForm": "i-i-s-kurs2-экс-файлы-e",
+  "external": false,
+  "caption": "Экс файлы",
+  "name": "IISKurs2ЭксФайлыL",
+  "className": "ЭксФайлыL",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-kurs2-экс-файлы",
+      "modelProjection": "ЭксФайлыL"
+    }
+  ]
+}

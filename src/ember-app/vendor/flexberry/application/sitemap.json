@@ -1,0 +1,71 @@
+﻿{
+  "applicationCaption": "Kurs2",
+  "applicationTitle": "Kurs2",
+  "items": [
+    {
+      "link": null,
+      "menuName": "kurs2",
+      "caption": "Kurs2",
+      "title": "Kurs2",
+      "children": [
+        {
+          "link": "i-i-s-kurs2-загр-файла-l",
+          "menuName": null,
+          "caption": "Загр файла",
+          "title": "",
+          "children": null
+        },
+        {
+          "link": "i-i-s-kurs2-еди-изм-l",
+          "menuName": null,
+          "caption": "Еди изм",
+          "title": "",
+          "children": null
+        },
+        {
+          "link": "i-i-s-kurs2-выгр-файла-l",
+          "menuName": null,
+          "caption": "Выгр файла",
+          "title": "",
+          "children": null
+        },
+        {
+          "link": "i-i-s-kurs2-экс-файлы-l",
+          "menuName": null,
+          "caption": "Экс файлы",
+          "title": "",
+          "children": null
+        },
+        {
+          "link": "i-i-s-kurs2-конвер-файлы-l",
+          "menuName": null,
+          "caption": "Конвер файлы",
+          "title": "",
+          "children": null
+        },
+        {
+          "link": "i-i-s-kurs2-конверт-l",
+          "menuName": null,
+          "caption": "Конверт",
+          "title": "",
+          "children": null
+        },
+        {
+          "link": "i-i-s-kurs2-расширение-l",
+          "menuName": null,
+          "caption": "Расширение",
+          "title": "",
+          "children": null
+        },
+        {
+          "link": "i-i-s-kurs2-вид-док-l",
+          "menuName": null,
+          "caption": "Вид док",
+          "title": "",
+          "children": null
+        }
+      ]
+    }
+  ],
+  "mobile": true
+}

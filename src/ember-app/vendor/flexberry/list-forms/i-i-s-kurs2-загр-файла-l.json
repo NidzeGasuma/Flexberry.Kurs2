@@ -1,0 +1,15 @@
+﻿{
+  "newForm": "i-i-s-kurs2-загр-файла-e",
+  "editForm": "i-i-s-kurs2-загр-файла-e",
+  "external": false,
+  "caption": "Загр файла",
+  "name": "IISKurs2ЗагрФайлаL",
+  "className": "ЗагрФайлаL",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-kurs2-загр-файла",
+      "modelProjection": "ЗагрФайлаL"
+    }
+  ]
+}

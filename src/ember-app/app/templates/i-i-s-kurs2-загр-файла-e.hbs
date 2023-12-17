@@ -1,0 +1,76 @@
+<h3 class="ui header">{{t "forms.i-i-s-kurs2-загр-файла-e.caption"}}</h3>
+
+<form class="ui form flexberry-vertical-form" role="form">
+  {{flexberry-error error=error}}
+  <div class="field">
+    <div class="flexberry-edit-panel">
+      {{#unless readonly}}
+        <button class="ui button save-button" {{action "save"}}>
+          {{t "forms.edit-form.save-button-text"}}
+        </button>
+        {{#unless model.isNew}}
+          <button class="ui button save-del-button" {{action "delete"}}>
+            {{t "forms.edit-form.delete-button-text"}}
+          </button>
+        {{/unless}}
+      {{/unless}}
+      <button class="ui button close-button" {{action "close"}}>
+        {{t "forms.edit-form.close-button-text"}}
+      </button>
+    </div>
+  </div>
+  <div class="field flexberry-validationsummary-container">
+    <div class="sixteen wide">
+      {{flexberry-validationsummary errors=(v-get validationObject "messages")}}
+    </div>
+  </div>
+  <div class="field">
+    {{flexberry-field
+      readonly=readonly
+      value=model.путьФайла
+      class=(if (v-get validationModel "путьФайла" "isInvalid") "error")
+      label=(t "forms.i-i-s-kurs2-загр-файла-e.путьФайла-caption")
+      data-test-i-i-s-kurs2-загр-файла-e-путьФайла=true
+    }}
+    {{flexberry-validationmessage error=(v-get validationModel "путьФайла" "message")}}
+  </div>
+  <div class="field">
+    <label>{{t "forms.i-i-s-kurs2-загр-файла-e.эксФайлы-caption"}}</label>
+    {{flexberry-lookup
+      choose="showLookupDialog"
+      remove="removeLookupValue"
+      value=model.эксФайлы
+      displayAttributeName="имя"
+      autocomplete=true
+      relationName="эксФайлы"
+      projection="ЭксФайлыL"
+      title=(t "forms.i-i-s-kurs2-загр-файла-e.эксФайлы-caption")
+      readonly=readonly
+      componentName="эксФайлыLookup"
+      class=(if (v-get validationModel "эксФайлы" "isInvalid") "error")
+      data-test-i-i-s-kurs2-загр-файла-e-эксФайлы=true
+    }}
+    {{flexberry-validationmessage error=(v-get validationModel "эксФайлы" "message")}}
+  </div>
+  <div class="field">
+    <label>{{t "forms.i-i-s-kurs2-загр-файла-e.эксФайлы.дата-caption"}}</label>
+    {{flexberry-simpledatetime
+      type="date"
+      readonly=true
+      value=model.эксФайлы.дата
+      class=(if (v-get validationModel.эксФайлы "дата" "isInvalid") "error")
+      data-test-i-i-s-kurs2-загр-файла-e-эксФайлы-дата=true
+    }}
+    {{flexberry-validationmessage error=(v-get validationModel.эксФайлы "дата" "message")}}
+  </div>
+  <div class="field">
+    {{flexberry-field
+      readonly=true
+      value=model.эксФайлы.репозиторий
+      class=(if (v-get validationModel.эксФайлы "репозиторий" "isInvalid") "error")
+      label=(t "forms.i-i-s-kurs2-загр-файла-e.эксФайлы.репозиторий-caption")
+      data-test-i-i-s-kurs2-загр-файла-e-эксФайлы-репозиторий=true
+    }}
+    {{flexberry-validationmessage error=(v-get validationModel.эксФайлы "репозиторий" "message")}}
+  </div>
+</form>
