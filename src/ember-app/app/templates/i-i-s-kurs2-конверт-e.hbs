@@ -34,40 +34,4 @@
     }}
     {{flexberry-validationmessage error=(v-get validationModel "имяДок" "message")}}
   </div>
-  <div class="field">
-    <label>{{t "forms.i-i-s-kurs2-конверт-e.загрФайла-caption"}}</label>
-    {{flexberry-lookup
-      choose="showLookupDialog"
-      remove="removeLookupValue"
-      value=model.загрФайла
-      displayAttributeName="путьФайла"
-      autocomplete=true
-      relationName="загрФайла"
-      projection="ЗагрФайлаL"
-      title=(t "forms.i-i-s-kurs2-конверт-e.загрФайла-caption")
-      readonly=readonly
-      componentName="загрФайлаLookup"
-      class=(if (v-get validationModel "загрФайла" "isInvalid") "error")
-      data-test-i-i-s-kurs2-конверт-e-загрФайла=true
-    }}
-    {{flexberry-validationmessage error=(v-get validationModel "загрФайла" "message")}}
-  </div>
-  <div class="field">
-    <label>{{t "forms.i-i-s-kurs2-конверт-e.видДок-caption"}}</label>
-    {{flexberry-lookup
-      choose="showLookupDialog"
-      remove="removeLookupValue"
-      value=model.видДок
-      displayAttributeName="наименование"
-      autocomplete=true
-      relationName="видДок"
-      projection="ВидДокL"
-      title=(t "forms.i-i-s-kurs2-конверт-e.видДок-caption")
-      readonly=readonly
-      componentName="видДокLookup"
-      class=(if (v-get validationModel "видДок" "isInvalid") "error")
-      data-test-i-i-s-kurs2-конверт-e-видДок=true
-    }}
-    {{flexberry-validationmessage error=(v-get validationModel "видДок" "message")}}
-  </div>
 </form>

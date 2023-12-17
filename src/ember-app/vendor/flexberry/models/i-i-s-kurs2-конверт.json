@@ -45,50 +45,7 @@
           "index": 0
         }
       ],
-      "belongsTo": [
-        {
-          "lookupValue": "ПутьФайла",
-          "lookupValueField": "путьФайла",
-          "relationName": "ЗагрФайла",
-          "belongsTo": [],
-          "hidden": false,
-          "attrs": [
-            {
-              "name": "путьФайла",
-              "caption": "Путь файла",
-              "hidden": true,
-              "index": 2
-            }
-          ],
-          "index": 1,
-          "type": "standard",
-          "caption": "Загр файла",
-          "name": "загрФайла",
-          "relatedTo": "i-i-s-kurs2-загр-файла",
-          "inverse": null
-        },
-        {
-          "lookupValue": "Наименование",
-          "lookupValueField": "наименование",
-          "relationName": "ВидДок",
-          "belongsTo": [],
-          "hidden": false,
-          "attrs": [
-            {
-              "name": "наименование",
-              "caption": "Наименование",
-              "hidden": true,
-              "index": 4
-            }
-          ],
-          "index": 3,
-          "type": "standard",
-          "caption": "Вид док",
-          "name": "видДок",
-          "relatedTo": "i-i-s-kurs2-вид-док",
-          "inverse": null
-        }
-      ],
+      "belongsTo": [],
       "hasMany": []
     },
     {
@@ -107,19 +64,41 @@
           "lookupValue": null,
           "lookupValueField": null,
           "relationName": "ЗагрФайла",
-          "belongsTo": [],
+          "belongsTo": [
+            {
+              "lookupValue": null,
+              "lookupValueField": null,
+              "relationName": "ЗагрФайла.ЭксФайлы",
+              "belongsTo": [],
+              "hidden": false,
+              "attrs": [
+                {
+                  "name": "имя",
+                  "caption": "",
+                  "hidden": false,
+                  "index": 1
+                }
+              ],
+              "index": -1,
+              "type": null,
+              "caption": "",
+              "name": "эксФайлы",
+              "relatedTo": "i-i-s-kurs2-экс-файлы",
+              "inverse": null
+            }
+          ],
           "hidden": false,
           "attrs": [
             {
               "name": "путьФайла",
               "caption": "Путь файла",
               "hidden": false,
-              "index": 1
+              "index": 2
             }
           ],
           "index": -1,
           "type": "default",
-          "caption": "Путь файла",
+          "caption": "",
           "name": "загрФайла",
           "relatedTo": "i-i-s-kurs2-загр-файла",
           "inverse": null
@@ -135,7 +114,7 @@
               "name": "наименование",
               "caption": "Наименование",
               "hidden": false,
-              "index": 2
+              "index": 3
             }
           ],
           "index": -1,
