@@ -31,24 +31,24 @@ namespace IIS.Kurs2
     [AccessType(ICSSoft.STORMNET.AccessType.none)]
     [View("ЭксФайлыE", new string[] {
             "Дата as \'Дата\'",
-            "Имя as \'Имя\'",
             "Репозиторий as \'Репозиторий\'",
+            "Имя as \'Имя\'",
+            "Расширение as \'Расширение\'",
             "Размер as \'Размер\'",
             "ЕдиИзм as \'Еди изм\'",
-            "ЕдиИзм.Наименование as \'Наименование\'",
-            "Расширение as \'Расширение\'",
-            "Расширение.Наименование as \'Наименование\'"}, Hidden=new string[] {
+            "ЕдиИзм.Наименование as \'Единицы измерения\'",
+            "Расширение.Наименование as \'Расширение\'"}, Hidden=new string[] {
             "ЕдиИзм.Наименование",
             "Расширение.Наименование"})]
-    [MasterViewDefineAttribute("ЭксФайлыE", "ЕдиИзм", ICSSoft.STORMNET.LookupTypeEnum.Standard, "", "Наименование")]
     [MasterViewDefineAttribute("ЭксФайлыE", "Расширение", ICSSoft.STORMNET.LookupTypeEnum.Standard, "", "Наименование")]
+    [MasterViewDefineAttribute("ЭксФайлыE", "ЕдиИзм", ICSSoft.STORMNET.LookupTypeEnum.Standard, "", "Наименование")]
     [View("ЭксФайлыL", new string[] {
             "Дата as \'Дата\'",
-            "Имя as \'Имя\'",
             "Репозиторий as \'Репозиторий\'",
+            "Имя as \'Имя\'",
+            "Расширение.Наименование as \'Расширение\'",
             "Размер as \'Размер\'",
-            "ЕдиИзм.Наименование as \'Единицы измерения\'",
-            "Расширение.Наименование as \'Расширение\'"})]
+            "ЕдиИзм.Наименование as \'Единицы измерения\'"})]
     public class ЭксФайлы : ICSSoft.STORMNET.DataObject
     {
         

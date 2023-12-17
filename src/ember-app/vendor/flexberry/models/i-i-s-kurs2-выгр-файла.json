@@ -48,7 +48,7 @@
           "attrs": [
             {
               "name": "имяДок",
-              "caption": "Имя док",
+              "caption": "Имя документа",
               "hidden": true,
               "index": 2
             }

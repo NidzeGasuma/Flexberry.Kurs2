@@ -38,6 +38,16 @@
   <div class="field">
     {{flexberry-field
       readonly=readonly
+      value=model.репозиторий
+      class=(if (v-get validationModel "репозиторий" "isInvalid") "error")
+      label=(t "forms.i-i-s-kurs2-экс-файлы-e.репозиторий-caption")
+      data-test-i-i-s-kurs2-экс-файлы-e-репозиторий=true
+    }}
+    {{flexberry-validationmessage error=(v-get validationModel "репозиторий" "message")}}
+  </div>
+  <div class="field">
+    {{flexberry-field
+      readonly=readonly
       value=model.имя
       class=(if (v-get validationModel "имя" "isInvalid") "error")
       label=(t "forms.i-i-s-kurs2-экс-файлы-e.имя-caption")
@@ -46,14 +56,22 @@
     {{flexberry-validationmessage error=(v-get validationModel "имя" "message")}}
   </div>
   <div class="field">
-    {{flexberry-field
+    <label>{{t "forms.i-i-s-kurs2-экс-файлы-e.расширение-caption"}}</label>
+    {{flexberry-lookup
+      choose="showLookupDialog"
+      remove="removeLookupValue"
+      value=model.расширение
+      displayAttributeName="наименование"
+      autocomplete=true
+      relationName="расширение"
+      projection="РасширениеL"
+      title=(t "forms.i-i-s-kurs2-экс-файлы-e.расширение-caption")
       readonly=readonly
-      value=model.репозиторий
-      class=(if (v-get validationModel "репозиторий" "isInvalid") "error")
-      label=(t "forms.i-i-s-kurs2-экс-файлы-e.репозиторий-caption")
-      data-test-i-i-s-kurs2-экс-файлы-e-репозиторий=true
+      componentName="расширениеLookup"
+      class=(if (v-get validationModel "расширение" "isInvalid") "error")
+      data-test-i-i-s-kurs2-экс-файлы-e-расширение=true
     }}
-    {{flexberry-validationmessage error=(v-get validationModel "репозиторий" "message")}}
+    {{flexberry-validationmessage error=(v-get validationModel "расширение" "message")}}
   </div>
   <div class="field">
     {{flexberry-field
@@ -82,23 +100,5 @@
       data-test-i-i-s-kurs2-экс-файлы-e-едиИзм=true
     }}
     {{flexberry-validationmessage error=(v-get validationModel "едиИзм" "message")}}
-  </div>
-  <div class="field">
-    <label>{{t "forms.i-i-s-kurs2-экс-файлы-e.расширение-caption"}}</label>
-    {{flexberry-lookup
-      choose="showLookupDialog"
-      remove="removeLookupValue"
-      value=model.расширение
-      displayAttributeName="наименование"
-      autocomplete=true
-      relationName="расширение"
-      projection="РасширениеL"
-      title=(t "forms.i-i-s-kurs2-экс-файлы-e.расширение-caption")
-      readonly=readonly
-      componentName="расширениеLookup"
-      class=(if (v-get validationModel "расширение" "isInvalid") "error")
-      data-test-i-i-s-kurs2-экс-файлы-e-расширение=true
-    }}
-    {{flexberry-validationmessage error=(v-get validationModel "расширение" "message")}}
   </div>
 </form>

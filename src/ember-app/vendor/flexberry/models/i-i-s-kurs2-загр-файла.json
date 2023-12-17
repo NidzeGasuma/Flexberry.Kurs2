@@ -35,39 +35,39 @@
           "name": "путьФайла",
           "caption": "Путь файла",
           "hidden": false,
-          "index": 0
+          "index": 4
         }
       ],
       "belongsTo": [
         {
-          "lookupValue": "Имя",
-          "lookupValueField": "имя",
+          "lookupValue": null,
+          "lookupValueField": null,
           "relationName": "ЭксФайлы",
           "belongsTo": [],
           "hidden": false,
           "attrs": [
             {
-              "name": "имя",
-              "caption": "Имя",
-              "hidden": true,
-              "index": 2
-            },
-            {
               "name": "дата",
               "caption": "Дата",
               "hidden": false,
-              "index": 3
+              "index": 0
             },
             {
               "name": "репозиторий",
               "caption": "Репозиторий",
               "hidden": false,
-              "index": 4
+              "index": 1
+            },
+            {
+              "name": "имя",
+              "caption": "Имя",
+              "hidden": true,
+              "index": 3
             }
           ],
-          "index": 1,
-          "type": "standard",
-          "caption": "Экс файлы",
+          "index": 2,
+          "type": "default",
+          "caption": "Дата",
           "name": "эксФайлы",
           "relatedTo": "i-i-s-kurs2-экс-файлы",
           "inverse": null
@@ -83,7 +83,7 @@
           "name": "путьФайла",
           "caption": "Путь файла",
           "hidden": false,
-          "index": 0
+          "index": 3
         }
       ],
       "belongsTo": [
@@ -95,27 +95,27 @@
           "hidden": false,
           "attrs": [
             {
-              "name": "имя",
-              "caption": "Имя",
-              "hidden": false,
-              "index": 1
-            },
-            {
               "name": "дата",
               "caption": "Дата",
               "hidden": false,
-              "index": 2
+              "index": 0
             },
             {
               "name": "репозиторий",
               "caption": "Репозиторий",
               "hidden": false,
-              "index": 3
+              "index": 1
+            },
+            {
+              "name": "имя",
+              "caption": "Имя",
+              "hidden": false,
+              "index": 2
             }
           ],
           "index": -1,
           "type": "default",
-          "caption": "Имя",
+          "caption": "Дата",
           "name": "эксФайлы",
           "relatedTo": "i-i-s-kurs2-экс-файлы",
           "inverse": null

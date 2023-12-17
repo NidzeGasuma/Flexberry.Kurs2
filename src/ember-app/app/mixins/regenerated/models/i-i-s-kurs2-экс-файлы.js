@@ -59,27 +59,27 @@ export let ValidationRules = {
 export let defineProjections = function (modelClass) {
   modelClass.defineProjection('ЭксФайлыE', 'i-i-s-kurs2-экс-файлы', {
     дата: attr('Дата', { index: 0 }),
-    имя: attr('Имя', { index: 1 }),
-    репозиторий: attr('Репозиторий', { index: 2 }),
-    размер: attr('Размер', { index: 3 }),
+    репозиторий: attr('Репозиторий', { index: 1 }),
+    имя: attr('Имя', { index: 2 }),
+    размер: attr('Размер', { index: 4 }),
     едиИзм: belongsTo('i-i-s-kurs2-еди-изм', 'Еди изм', {
-      наименование: attr('Наименование', { index: 5, hidden: true })
-    }, { index: 4, displayMemberPath: 'наименование' }),
+      наименование: attr('Единицы измерения', { index: 6, hidden: true })
+    }, { index: 5, displayMemberPath: 'наименование' }),
     расширение: belongsTo('i-i-s-kurs2-расширение', 'Расширение', {
-      наименование: attr('Наименование', { index: 7, hidden: true })
-    }, { index: 6, displayMemberPath: 'наименование' })
+      наименование: attr('Расширение', { index: 7, hidden: true })
+    }, { index: 3, displayMemberPath: 'наименование' })
   });
 
   modelClass.defineProjection('ЭксФайлыL', 'i-i-s-kurs2-экс-файлы', {
     дата: attr('Дата', { index: 0 }),
-    имя: attr('Имя', { index: 1 }),
-    репозиторий: attr('Репозиторий', { index: 2 }),
-    размер: attr('Размер', { index: 3 }),
-    едиИзм: belongsTo('i-i-s-kurs2-еди-изм', 'Единицы измерения', {
-      наименование: attr('Единицы измерения', { index: 4 })
-    }, { index: -1, hidden: true }),
+    репозиторий: attr('Репозиторий', { index: 1 }),
+    имя: attr('Имя', { index: 2 }),
     расширение: belongsTo('i-i-s-kurs2-расширение', 'Расширение', {
-      наименование: attr('Расширение', { index: 5 })
+      наименование: attr('Расширение', { index: 3 })
+    }, { index: -1, hidden: true }),
+    размер: attr('Размер', { index: 4 }),
+    едиИзм: belongsTo('i-i-s-kurs2-еди-изм', 'Единицы измерения', {
+      наименование: attr('Единицы измерения', { index: 5 })
     }, { index: -1, hidden: true })
   });
 };

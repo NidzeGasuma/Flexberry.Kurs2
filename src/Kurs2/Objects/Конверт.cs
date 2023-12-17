@@ -29,21 +29,21 @@ namespace IIS.Kurs2
     [AutoAltered()]
     [AccessType(ICSSoft.STORMNET.AccessType.none)]
     [View("КонвертE", new string[] {
-            "ИмяДок as \'Имя док\'",
-            "ЗагрФайла as \'Загр файла\'",
+            "ЗагрФайла.ЭксФайлы.Имя as \'Имя\'",
+            "ЗагрФайла as \'Путь файла\'",
+            "ВидДок as \'Вид документа\'",
+            "ИмяДок as \'Имя документа\'",
             "ЗагрФайла.ПутьФайла as \'Путь файла\'",
-            "ВидДок as \'Вид док\'",
-            "ВидДок.Наименование as \'Наименование\'",
-            "ЗагрФайла.ЭксФайлы.Имя as \'Имя\'"}, Hidden=new string[] {
+            "ВидДок.Наименование as \'Наименование\'"}, Hidden=new string[] {
             "ЗагрФайла.ПутьФайла",
             "ВидДок.Наименование"})]
     [MasterViewDefineAttribute("КонвертE", "ЗагрФайла", ICSSoft.STORMNET.LookupTypeEnum.Standard, "", "ПутьФайла")]
     [MasterViewDefineAttribute("КонвертE", "ВидДок", ICSSoft.STORMNET.LookupTypeEnum.Standard, "", "Наименование")]
     [View("КонвертL", new string[] {
-            "ИмяДок as \'Имя док\'",
             "ЗагрФайла.ЭксФайлы.Имя as \'Имя\'",
             "ЗагрФайла.ПутьФайла as \'Путь файла\'",
-            "ВидДок.Наименование as \'Вид документа\'"})]
+            "ВидДок.Наименование as \'Вид документа\'",
+            "ИмяДок as \'Имя документа\'"})]
     public class Конверт : ICSSoft.STORMNET.DataObject
     {
         

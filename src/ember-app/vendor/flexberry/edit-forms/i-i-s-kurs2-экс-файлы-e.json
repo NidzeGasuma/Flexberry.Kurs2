@@ -4,16 +4,16 @@
       "master": null,
       "displayAttributeName": null,
       "required": false,
-      "relationName": "ЕдиИзм",
-      "projection": "ЕдиИзмL",
+      "relationName": "Расширение",
+      "projection": "РасширениеL",
       "detailModelName": null
     },
     {
       "master": null,
       "displayAttributeName": null,
       "required": false,
-      "relationName": "Расширение",
-      "projection": "РасширениеL",
+      "relationName": "ЕдиИзм",
+      "projection": "ЕдиИзмL",
       "detailModelName": null
     }
   ],

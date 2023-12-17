@@ -4,49 +4,49 @@
   "items": [
     {
       "link": null,
-      "menuName": "kurs2",
-      "caption": "Kurs2",
-      "title": "Kurs2",
+      "menuName": "конвертация-файла",
+      "caption": "Конвертация файла",
+      "title": "Конвертация файла",
       "children": [
         {
           "link": "i-i-s-kurs2-загр-файла-l",
           "menuName": null,
-          "caption": "Загр файла",
+          "caption": "Загрузка файла",
           "title": "",
           "children": null
         },
         {
           "link": "i-i-s-kurs2-еди-изм-l",
           "menuName": null,
-          "caption": "Еди изм",
+          "caption": "Единицы измерения",
           "title": "",
           "children": null
         },
         {
           "link": "i-i-s-kurs2-выгр-файла-l",
           "menuName": null,
-          "caption": "Выгр файла",
+          "caption": "Выгрузка файла",
           "title": "",
           "children": null
         },
         {
           "link": "i-i-s-kurs2-экс-файлы-l",
           "menuName": null,
-          "caption": "Экс файлы",
+          "caption": "Эксель файлы",
           "title": "",
           "children": null
         },
         {
           "link": "i-i-s-kurs2-конвер-файлы-l",
           "menuName": null,
-          "caption": "Конвер файлы",
+          "caption": "Конвертированные файлы",
           "title": "",
           "children": null
         },
         {
           "link": "i-i-s-kurs2-конверт-l",
           "menuName": null,
-          "caption": "Конверт",
+          "caption": "Конвертация",
           "title": "",
           "children": null
         },
@@ -60,8 +60,37 @@
         {
           "link": "i-i-s-kurs2-вид-док-l",
           "menuName": null,
-          "caption": "Вид док",
+          "caption": "Вид документа",
           "title": "",
+          "children": null
+        }
+      ]
+    },
+    {
+      "link": null,
+      "menuName": "справочники",
+      "caption": "Справочники",
+      "title": "Справочники",
+      "children": [
+        {
+          "link": "i-i-s-kurs2-расширение-l",
+          "menuName": null,
+          "caption": "РасширениеL",
+          "title": "Расширение",
+          "children": null
+        },
+        {
+          "link": "i-i-s-kurs2-еди-изм-l",
+          "menuName": null,
+          "caption": "ЕдиИзмL",
+          "title": "Еди изм",
+          "children": null
+        },
+        {
+          "link": "i-i-s-kurs2-вид-док-l",
+          "menuName": null,
+          "caption": "ВидДокL",
+          "title": "Вид док",
           "children": null
         }
       ]

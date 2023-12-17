@@ -32,7 +32,7 @@ namespace IIS.Kurs2
     [View("ВыгрФайлаE", new string[] {
             "ИмяФайла as \'Имя файла\'",
             "Конверт as \'Имя документа\'",
-            "Конверт.ИмяДок as \'Имя док\'"}, Hidden=new string[] {
+            "Конверт.ИмяДок as \'Имя документа\'"}, Hidden=new string[] {
             "Конверт.ИмяДок"})]
     [MasterViewDefineAttribute("ВыгрФайлаE", "Конверт", ICSSoft.STORMNET.LookupTypeEnum.Standard, "", "ИмяДок")]
     [View("ВыгрФайлаL", new string[] {

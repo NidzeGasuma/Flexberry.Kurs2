@@ -104,6 +104,58 @@ $.extend(true, translations, {
           caption: 'Главная',
           title: ''
         },
+        'конвертация-файла': {
+          caption: 'Конвертация файла',
+          title: 'Конвертация файла',
+          'i-i-s-kurs2-загр-файла-l': {
+            caption: 'Загрузка файла',
+            title: ''
+          },
+          'i-i-s-kurs2-еди-изм-l': {
+            caption: 'Единицы измерения',
+            title: ''
+          },
+          'i-i-s-kurs2-выгр-файла-l': {
+            caption: 'Выгрузка файла',
+            title: ''
+          },
+          'i-i-s-kurs2-экс-файлы-l': {
+            caption: 'Эксель файлы',
+            title: ''
+          },
+          'i-i-s-kurs2-конвер-файлы-l': {
+            caption: 'Конвертированные файлы',
+            title: ''
+          },
+          'i-i-s-kurs2-конверт-l': {
+            caption: 'Конвертация',
+            title: ''
+          },
+          'i-i-s-kurs2-расширение-l': {
+            caption: 'Расширение',
+            title: ''
+          },
+          'i-i-s-kurs2-вид-док-l': {
+            caption: 'Вид документа',
+            title: ''
+          }
+        },
+        справочники: {
+          caption: 'Справочники',
+          title: 'Справочники',
+          'i-i-s-kurs2-расширение-l': {
+            caption: 'РасширениеL',
+            title: 'Расширение'
+          },
+          'i-i-s-kurs2-еди-изм-l': {
+            caption: 'ЕдиИзмL',
+            title: 'Еди изм'
+          },
+          'i-i-s-kurs2-вид-док-l': {
+            caption: 'ВидДокL',
+            title: 'Вид док'
+          }
+        },
         kurs2: {
           caption: 'Kurs2',
           title: 'Kurs2',

@@ -29,7 +29,7 @@ export let defineProjections = function (modelClass) {
   modelClass.defineProjection('ВыгрФайлаE', 'i-i-s-kurs2-выгр-файла', {
     имяФайла: attr('Имя файла', { index: 0 }),
     конверт: belongsTo('i-i-s-kurs2-конверт', 'Имя документа', {
-      имяДок: attr('Имя док', { index: 2, hidden: true })
+      имяДок: attr('Имя документа', { index: 2, hidden: true })
     }, { index: 1, displayMemberPath: 'имяДок' })
   });
 
